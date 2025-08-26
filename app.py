@@ -15,6 +15,6 @@ def hello_user(username):
 def feature(username):
     return f"Feature pour {username}"
 
-
+    
 if __name__ == '__main__':
     app.run(host='0.0.0.0')  # open for everyone
